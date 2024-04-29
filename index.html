@@ -3,56 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
+    <title>Cybersecurity Blog</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4; /* Light gray background */
-            color: #333; /* Dark gray text */
             margin: 0;
             padding: 0;
-            line-height: 1.6;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
         }
         header {
-            background-color: #333; /* Dark gray header background */
-            color: #fff; /* White text */
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            color: red;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
             padding: 20px;
             text-align: center;
         }
-        h1, h2, h3, h4, h5, h6 {
-            color: #ff5733; /* Attractive orange for headings */
+        .background-section {
+            background-image: url('"E:\github\website\MKBHD Icons(Black).jpg"');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+            text-align: center;
+            color: white;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
+        .blog-post {
+            background-color: #333;
             padding: 20px;
-            background-color: #fff; /* White container background */
-            border-radius: 8px; /* Rounded corners */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            margin-bottom: 20px;
         }
-        a {
-            color: #ff5733; /* Attractive orange for links */
+        .blog-post h2 {
+            color: red;
         }
-        a:hover {
-            text-decoration: underline;
+        .blog-post p {
+            color: white;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>My Blog</h1>
-    <p>Welcome to my blog where I share my thoughts, ideas, and experiences on various topics.</p>
-</header>
-
-<div class="container">
-
-    <h2>About</h2>
-    <p>This blog is a platform for me to express my thoughts on a wide range of subjects including technology, literature, philosophy, and more. Expect to find articles, tutorials, and insights that reflect my interests and passions.</p>
-
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#contributing">Contributing</a></li>
-        <li
+    <header>
+        <h1>Cybersecurity Blog</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="background-section">
+            <h2>Welcome to our Cybersecurity Blog</h2>
+            <p>Stay updated with the latest news, tips, and tricks to keep your digital life secure.</p>
+        </section>
+        <div class="blog-post">
+            <h2>Top 5 Cybersecurity Threats of 2024</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et nisi vel metus volutpat venenatis. Donec mollis lorem nec ultricies dictum.</p>
+        </div>
+        <div class="blog-post">
+            <h2>How to Protect Your Business from Cyber Attacks</h2>
+            <p>Nulla nec lacus ut quam feugiat fermentum a nec enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </div>
+        <div class="blog-post">
+            <h2>The Importance of Two-Factor Authentication</h2>
+            <p>Phasellus non diam nec nisl malesuada semper. Curabitur nec diam blandit, efficitur leo vitae, convallis nulla. Cras commodo consequat lacinia.</p>
+        </div>
+    </div>
+</body>
+</html>
