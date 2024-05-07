@@ -1,38 +1,48 @@
-# My Blog
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 100px; /* Adjust the size as needed */
+            height: auto;
+            margin-right: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="your_logo.png" alt="Logo">
+        <h1>My Blog</h1>
+    </header>
 
-Welcome to my blog where I share my thoughts, ideas, and experiences on various topics.
-
-## About
-
-This blog is a platform for me to express my thoughts on a wide range of subjects including technology, literature, philosophy, and more. Expect to find articles, tutorials, and insights that reflect my interests and passions.
-
-## Table of Contents
-
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Features
-
-- Clean and minimalist design.
-- Responsive layout for a seamless browsing experience on all devices.
-- Easy navigation to find articles on specific topics.
-- Dark mode for comfortable reading at night.
-
-## Usage
-
-To access the blog, simply visit [My Blog](https://yourblogwebsite.com).
-
-## Contributing
-
-Contributions are welcome! If you find any bugs, have feature requests, or want to contribute to the content, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out to me at [your@email.com](mailto:your@email.com).
-
+    <div class="container">
+        <h2>Blog Post Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+        <h2>Another Blog Post Title</h2>
+        <p>Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis.</p>
+        <!-- Add more blog post content as needed -->
+    </div>
+</body>
+</html>
